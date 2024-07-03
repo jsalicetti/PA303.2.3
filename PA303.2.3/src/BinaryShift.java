@@ -77,5 +77,30 @@ public class BinaryShift {
         System.out.println(Integer.toBinaryString(y));
         System.out.println(Integer.toBinaryString(z));
 
-    }
-}
+        //pt4
+
+        int z1 = x1 | y;
+        /* prediction: 10111 */
+        System.out.println(Integer.toBinaryString(x1 | y));
+
+        // pt5
+
+        int value = 7;
+        System.out.println("Before increment: " + value);
+        value++;
+        System.out.println("After increment: " + value);
+
+        //pt6
+        // keep incrementing by 1
+        int incValue = 5;
+        System.out.println(incValue);
+        incValue++;
+
+        incValue = incValue + 1;
+
+        System.out.println(incValue);
+        incValue += 1;
+        System.out.println(incValue);
+    
+
+
