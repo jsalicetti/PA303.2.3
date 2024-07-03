@@ -101,6 +101,8 @@ public class BinaryShift {
         System.out.println(incValue);
         incValue += 1;
         System.out.println(incValue);
+
+        //pt7
     
 
 
