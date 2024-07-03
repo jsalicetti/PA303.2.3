@@ -103,6 +103,13 @@ public class BinaryShift {
         System.out.println(incValue);
 
         //pt7
-    
+
+        int x3 = 5;
+        int y3 = 8;
+        int sum = ++x3 + y3;
+
+        System.out.println(sum);
+    }
+}
 
 
